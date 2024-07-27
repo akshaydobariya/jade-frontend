@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
       <Head>
-        <title>JadeScrolls - An Exiled Mage's Odyssey</title>
+        <title>JadeScrolls - An Exiled Mage`s Odyssey</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -126,12 +126,12 @@ export default function Home() {
               New Chapters
             </span>
             <PoppinsBoldText fontWeight={900}>
-              <p className="font-bold mb-2 text-3 md:text-6xl">An Exiled Mage's Odyssey</p>
+              <p className="font-bold mb-2 text-3 md:text-6xl">An Exiled Mage`s Odyssey</p>
             </PoppinsBoldText>
             <LatoLightText fontSize="1rem md:text-lg" color="#666">
               <p className="mb-6">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s.
               </p>
             </LatoLightText>
 
@@ -220,11 +220,11 @@ export default function Home() {
                   style={{ objectFit: 'cover' }}
                   className="rounded-lg"
                 />
-                {slide.tag && (
+                {/* {slide.tag && (
                   <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
                     {slide.tag}
                   </span>
-                )}
+                )} */}
               </div>
             </SwiperSlide>
           ))}
